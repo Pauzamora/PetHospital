@@ -1,6 +1,8 @@
 from pathlib import Path
 from datetime import timedelta
+import django_heroku
 
+django_heroku.settings(locals())
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -89,10 +91,10 @@ WSGI_APPLICATION = 'petHospitalProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd5mh397v93urvm',
-        'USER': 'akbnxmyjjglooc',
-        'PASSWORD': '5d342d5dde34e0ecf46180d8c80ce3441c6d9fdede3308bc144b2eaeafd1e705',
-        'HOST': 'ec2-3-95-130-249.compute-1.amazonaws.com',
+        'NAME': 'da3bfc5rapnul7',
+        'USER': 'dcvsmmelbdlddu',
+        'PASSWORD': 'eeabc40adb6ab37e1af7ab60b834fe4a1ea1c4f323358139839be68245f8fca9',
+        'HOST': 'ec2-34-195-69-118.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
@@ -139,5 +141,4 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-import django_heroku
-django_heroku.settings(locals())
+

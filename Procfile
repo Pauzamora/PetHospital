@@ -1,1 +1,1 @@
-web: gunicorn petHospitalProyect.wsgi
+web: gunicorn petHospitalProject.wsgi
