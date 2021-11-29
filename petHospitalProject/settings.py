@@ -89,10 +89,10 @@ WSGI_APPLICATION = 'petHospitalProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dqm5ej0k06l71',
-        'USER': 'rtqxtvqsudtqdp',
-        'PASSWORD': '2c987e0871043ec306973998657911f8b43d529f58a2cef79b28664bba0fd98d',
-        'HOST': 'ec2-23-23-219-25.compute-1.amazonaws.com',
+        'NAME': 'd5mh397v93urvm',
+        'USER': 'akbnxmyjjglooc',
+        'PASSWORD': '5d342d5dde34e0ecf46180d8c80ce3441c6d9fdede3308bc144b2eaeafd1e705',
+        'HOST': 'ec2-3-95-130-249.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
